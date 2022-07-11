@@ -6,7 +6,8 @@ chosen_word = random.choice(word_list);
 print(chosen_word)
 guess = input("guess a letter ").lower()
 
-if guess in chosen_word:
+for letter in chosen_word:
+ if letter == guess:
     print("yes")
 else: 
     print("false")
