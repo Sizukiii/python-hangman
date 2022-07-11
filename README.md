@@ -1,1 +1,1 @@
-# python-hangman
+This is a small python project that follows 100 days of python code!
